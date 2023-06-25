@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="x-ua-compatible"content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MY FRIST WEBSITE</title>     
+    <!-- ==== CSS ==== -->
+    <link rel="stylesheet" href="style.css">
+<head>
+<body>
+    <!-- Navbar -->
+    <nav class="navbar">
+       <h1 class="logo">CLEAN INDIA</h1>
+       <ul class="nav-links">
+         <li class="active"><a href="#"><b>Home</b></a></li>
+         <li><a href="services.html"><b>services</b></a></li>
+         <li><a href="about.html"><b>About</b></a></li>
+         <li><a href="login.html"><b>Login</b></a></li>
+         <li class="ctn"><a href="contact.html"><b>Contact</b></a></li>
+       <ul><br><br><br><br><br>
+       <img src="C:/Users/nmsus/OneDrive/Desktop/sushma sree(5a8)/menu-btn.jpg" alt="" class="menu-btn">
+    </nav>
+
+   <header>
+       <div class="header-content">
+         <h2>Clean India for the Bright Future</h2>
+         <div class="line"></div>
+         <h1>SWACHH BHARATH</h1>
+         <a href="#" class="ctn">Learn more</a>
+       </div>
+    </header>
+
+    <!-- == Events == -->
+    <section>
+       <div class="title">
+         <h1>Swachh Bharath events</h1>
+         <div class="line"></div>
+       </div>
+       <div class="row">
+         <div class="col">
+           <img src="C:/Users/nmsus/OneDrive/Desktop/sushma sree(5a8)/img-111.jpg" alt="">
+           <h4>Clean India and Green India</h4>
+           <p>The purpose of this campaign is to clean all the towns and villages of India.If India will be clean, it will go green. Green India to keep its environment clean</p>
+           <a href="#" class="ctn">Learn More</a>
+         </div>
+         <div class="col">
+           <img src="C:/Users/nmsus/OneDrive/Desktop/sushma sree(5a8)/img-22.jpg" alt="">
+           <h4>Clean Revolution for india</h4>
+           <p>The program also aims to increase awareness of menstrual health management to eliminate open defecation and improve solid waste management</p>
+           <a href="#" class="ctn">Learn More</a>
+         </div>
+       </div>
+    </section>
+
+    <section class="explore">
+      <div class="explore-content">
+       <h1>Explore The Swachh Bharath</h1>
+       <div class="line"></div>
+       <p>Mahatma Gandhi said "Sanitation is more important than independence". He made cleanliness and sanitation an integral part of the Gandhian way of living. His dream was total sanitation for all. Cleanliness is most important for physical well-being and a healthy environment.</p>
+       <a href="#" class="ctn">Learn More</a>
+      </div>    
+    </section>
+
+    <section class="services">
+       <div class="row">
+         <div class="col content-col">
+           <h1>UPCOMING THE SWACHH BHARATH</h1>
+           <div class="line"></div>
+           <p>It is a restructured version of the Nirmal Bharat Abhiyan launched in 2009 that failed to achieve its intended targets. One step towards cleanliness. Phase 1 of the Swachh Bharat Mission lasted till October 2019. Phase 2 is being implemented between 2020–21 and 2024–25 to help cement the work of Phase 1.</p>
+           <a href="#" class="ctn">Learn More</a>
+         </div>
+         <div class="col image-col">
+           <div class="image-gallery">
+             <img src="C:/Users/nmsus/OneDrive/Desktop/sushma sree(5a8)/img-4.jpg" alt="">
+             <img src="C:/Users/nmsus/OneDrive/Desktop/sushma sree(5a8)/img-2.jpg" alt=""> 
+             <img src="C:/Users/nmsus/OneDrive/Desktop/sushma sree(5a8)/img-1.jpg" alt="">
+             <img src="C:/Users/nmsus/OneDrive/Desktop/sushma sree(5a8)/img-5.jpg" alt="">
+           </div>
+         </div>
+       </div>
+    </section>
+
+    <section class="footer"> 
+       <p>ABOUT US</p>
+       <P>The objective of the Swachh Bharat Mission was to eliminate open defecation and improve solid waste management in India.</P>
+       <p>Quick links</p>
+       <p>Home   Services     About     Login    Contact</P>
+    </section>
+
+    <script>
+       const menuBtn = document.queryselector('.menu-btn')
+       const navlinks = document.queryselector('.nav-links')
+
+       menuBtn.addEventlistener('click',()=>{
+         navlinks.classlist.toggle('mobile-menu')
+       })
+    </script> 
+</body>
+</html>
+    
